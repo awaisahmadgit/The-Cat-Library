@@ -16,7 +16,7 @@ Go and visit [http://thecatapi.com](http://thecatapi.com)
 
 ## Installation
 
-Install through **AAR**.
+Install using **AAR**.
 
 (1). You can download aar file from [here][1]
 
