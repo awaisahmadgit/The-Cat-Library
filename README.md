@@ -1,14 +1,16 @@
 # the-cat-library
 
 `the-cat-library` is a fast and effcient way of selecting a cat image from a list of random cat images. This library is intended for use in Android development. 
-The library uses `Retrofit` for network layer, `Glide` for image fetching, `RecyclerView` for dyanmic listing. This Library won't be
+The library uses `Retrofit` for network layer, `Glide` for image fetching, `RecyclerView` for dynamic listing. This Library won't be
 posible without the Cat API (http://thecatapi.com).
 
 ## Big Thanks to the great Cat API
 
 Go and visit [http://thecatapi.com](http://thecatapi.com)
 
-![alt text](http://thecatapi.com/api/images/get?type=gif "See? amazing!")
+![alt text](https://github.com/awaisahmadgit/the-cat-library/blob/main/The-Cat-Library/Library%20(ARR)/TheCatLibrary.png)
+
+
 
 **Android compatible**
 
@@ -52,10 +54,11 @@ dependencies {
 
 ## Manfiest
 
-In your app's mainfest, don't forget to write the following under your calling Activity tag.
+In your app's mainfest, don't forget to write the following inside your calling Activity tag. 
 
 ```manifest
-tools:replace="android:theme"
+<activity android:name=".CallingActivity"
+  tools:replace="android:theme">
 ```
 
 How do I use the-cat-library?
